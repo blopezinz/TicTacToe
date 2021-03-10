@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="src/tic-tac-toe.svg" type="image/x-icon">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    
+    <div class="content">
+        <div class="point" id="point">
+        
+        </div>        
+        <div class="table">
+            <div class="row">
+                <a class="item" id="1" href="#" onclick="handleClick(1)">-</a>
+                <a class="item" id="2" href="#" onclick="handleClick(2)">-</a>
+                <a class="item" id="3" href="#" onclick="handleClick(3)">-</a>
+            </div>
+            <div class="row">
+                <a class="item" id="4" href="#" onclick="handleClick(4)">-</a>
+                <a class="item" id="5" href="#" onclick="handleClick(5)">-</a>
+                <a class="item" id="6" href="#" onclick="handleClick(6)">-</a>
+            </div>
+            <div class="row">
+                <a class="item" id="7" href="#" onclick="handleClick(7)">-</a>
+                <a class="item" id="8" href="#" onclick="handleClick(8)">-</a>
+                <a class="item" id="9" href="#" onclick="handleClick(9)">-</a>
+            </div>
+        </div>      
+        <div class="button">
+            <button class="btn" onclick="start()">Restart</button>
+        </div>
+        
+    </div>
+    
+</body>
+<script src="src/main.js"></script>
+</html>
